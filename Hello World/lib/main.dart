@@ -1,9 +1,3 @@
-# Curso-flutter-2
-corso flutter2
-
-Hola mundo en flutter
-```dart
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,5 +12,3 @@ class myApp extends StatelessWidget {
     );
   }
 }
-
-```
