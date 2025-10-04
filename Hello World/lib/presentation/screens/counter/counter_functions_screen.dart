@@ -1,30 +1,3 @@
-# Curso-flutter-2
-corso flutter2
-
-Hola mundo en flutter
-```dart
-
-import 'package:flutter/material.dart';
-
-void main() {
-  runApp(myApp());
-}
-
-class myApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Center(child: Text('Hola mundo')),
-    );
-  }
-}
-
-```
-
-en el siguiente código podemos ver que repetimos codigo para hacer botones, si bien el comportamiento y diseño cambia , las medidas son iguales, quizas podemos emplear un mismo código con parametros para no repetir tanto
-
-```dart
-
 import 'package:flutter/material.dart';
 
 class CounterFunctionsScreen extends StatefulWidget {
@@ -114,4 +87,3 @@ class _CounterFunctionsScreenState extends State<CounterFunctionsScreen> {
         ));
   }
 }
-```
