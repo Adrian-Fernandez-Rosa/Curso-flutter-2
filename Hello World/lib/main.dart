@@ -3,9 +3,10 @@ import 'package:hello_world/presentation/screens/counter/counter_functions_scree
 // import 'package:hello_world/presentation/screens/counter/counter_screen.dart';
 
 void main() {
-  runApp(myApp());
+  runApp(const myApp());
 }
 
+// ignore: camel_case_types
 class myApp extends StatelessWidget {
   
   const myApp({super.key});
