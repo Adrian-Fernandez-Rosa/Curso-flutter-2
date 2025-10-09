@@ -297,3 +297,16 @@ Además se usará:
 - **Image (desde internet)** → Permite cargar y mostrar imágenes directamente desde una URL.  
 
 
+## Seccion 7
+
+seccion 7 app de videos
+
+- Manejo de assets
+
+- Paquetes
+
+- Gesture Detector
+
+- Posicionamiento de Widgets
+
+- Mappers
