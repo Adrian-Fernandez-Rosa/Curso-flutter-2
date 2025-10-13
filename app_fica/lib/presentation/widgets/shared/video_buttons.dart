@@ -1,3 +1,4 @@
+import 'package:app_fica/config/helpers/human_formats.dart';
 import 'package:app_fica/domain/entities/video_post.dart';
 import 'package:flutter/material.dart';
 
@@ -41,7 +42,7 @@ class _CustomIconButton extends StatelessWidget {
         IconButton(onPressed: () {},
         icon: Icon(iconData, color: color, size: 37,)),
 
-        Text('$value')
+        Text(HumanFormats.humanReadleNumber(value.toDouble()))
 
       ],
     );
