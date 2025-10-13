@@ -1,4 +1,5 @@
 import 'package:app_fica/domain/entities/video_post.dart';
+import 'package:app_fica/presentation/widgets/shared/video/fullscren_player.dart';
 import 'package:app_fica/presentation/widgets/shared/video_buttons.dart';
 import 'package:flutter/material.dart';
 
@@ -26,7 +27,12 @@ class VideoScrollableView extends StatelessWidget {
        return  Stack(
           children: [
             // Video Player + gradiente
-
+          SizedBox.expand(
+            child: FullscrenPlayer(
+              caption: videoPost.caption,
+              videoUrl: videoPost.videoUrl,
+            )
+            ),
 
             // Botones
             Positioned(
